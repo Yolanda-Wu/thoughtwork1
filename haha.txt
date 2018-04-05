@@ -4,3 +4,4 @@ llll
 git tarcks changes of files
 jjjj
 Creating a new branch is quick AND simple.
+No Fast forward
