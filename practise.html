@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>练习</title>
+  <script>
+  function myFunction(){
+    var x=document.getElementById("fname");
+    if(x.value==123){
+      tip.innerHTML="The passward is right!";
+    }
+    else {
+      x.value="";
+      tip.innerHTML="The passward is wrong!";
+    }
+  }
+  </script>
+</head>
+<body>
+
+用户名：<input type="text">
+</br>
+密码：<input type="text" id="fname" onchange="myFunction()">
+</br>
+<button>提交</button>
+<p id="tip"><p>
+</body>
+</html>
